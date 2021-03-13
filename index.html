@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Employee List</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Employee List</h1>
+    <form id="employee-form">
+      <div>
+        <label for="first-name">First Name: </label>
+        <input type="text" id="first-name" placeholder="First name...">
+      </div>
+      <div>
+        <label for="last-name">Last Name: </label>
+        <input type="text" id="last-name" placeholder="Last name...">
+      </div>
+      <div>
+        <label for="dob">Date of Birth :</label>
+        <input type="text" id="dob" placeholder="Date of birth...">
+      </div>
+      <div>
+        <label for="departament">Departament: </label>
+        <input type="text" id="departament" placeholder="Departament...">
+      </div>
+      <div>
+        <label for="position">Position: </label>
+        <input type="text" id="position" placeholder="Position...">
+      </div>
+      <div>
+        <label for="salary">Salary: </label>
+        <input type="text" id="salary" placeholder="Salary...">
+      </div>
+      <div>
+        <input type="submit" id="submit-btn" value="Submit Employee!">
+      </div>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Date of Birth</th>
+          <th>Departament</th>
+          <th>Position</th>
+          <th>Salary</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="employee-list"></tbody>
+    </table>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
